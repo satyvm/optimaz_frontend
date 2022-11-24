@@ -1,28 +1,34 @@
 <template>
     <div class="home">
       <NavBar />
-      <div class="body-container">
-        <p class="text-white text-2xl px-2">Website is under construction. 🏗️</p>
-        <h1 class="text-9xl font-bold text-white">Coming <span class="text-gray-700">Soon</span>...</h1>
-        <div class="launching-timer flex px-2 py-5 text-white">
-         <div class="basis-24">
-           <p class="text-5xl" id="days">00</p>
-           <span>Days</span>
-         </div>
-         <div class="basis-24">
-           <p class="text-5xl" id="hours">00</p>
-           <span>Hours</span>
-         </div>
-         <div class="basis-24">
-           <p class="text-5xl" id="minutes">00</p>
-           <span>Minutes</span>
-         </div>
-         <div class="basis-24">
-           <p class="text-5xl" id="seconds">00</p>
-           <span>Seconds</span>
-         </div>
+      <div class="flex flex-row">
+        <div class="body-container basis-3/4">
+          <p class="text-white text-2xl px-2">Website is under construction. 🏗️</p>
+          <h1 class="text-9xl font-bold text-white">Coming <span class="text-gray-700">Soon</span>...</h1>
+          <div class="launching-timer flex px-2 py-5 text-white">
+            <div class="basis-24">
+              <p class="text-5xl" id="days">00</p>
+              <span>Days</span>
+            </div>
+            <div class="basis-24">
+              <p class="text-5xl" id="hours">00</p>
+              <span>Hours</span>
+            </div>
+            <div class="basis-24">
+              <p class="text-5xl" id="minutes">00</p>
+              <span>Minutes</span>
+            </div>
+            <div class="basis-24">
+              <p class="text-5xl" id="seconds">00</p>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
+        <div class="basis-1/4">
+          <iframe src="https://app.vectary.com/p/7CsHFTvjVn1EhqvpwvBsIj" frameborder="0" width="100%"></iframe>
         </div>
       </div>
+      
     </div>
 
 </template>
