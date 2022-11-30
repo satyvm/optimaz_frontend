@@ -25,7 +25,11 @@
         <div class="p-32 pl-10">
           <div class="card">
             <p class="text-5xl text-white">Start the Game 🚀🚀</p>
-            <button onclick="connect();"> Connect Wallet </button>
+            <div>
+              <button v-if="!connected" @click="connect">Connect wallet</button>
+              <button v-if="connected">Call contract</button>
+              {{ contractResult }}
+            </div>
           </div>
         </div>
       </div>
@@ -34,21 +38,30 @@
 </template>
 
 <script>
-async function connect() {
-  if (window.ethereum) {
-     await window.ethereum.request({ method: "eth_requestAccounts" });
-     window.web3 = new Web3(window.ethereum);
-     const account = web3.eth.accounts;
-     //Get the current MetaMask selected/active wallet
-     const walletAddress = account.givenProvider.selectedAddress;
-     console.log(`Wallet: ${walletAddress}`);
-  
-  } else {
-   console.log("No wallet");
-  }
-}
 export default {
   name: 'IndexPage',
+
+
+data() {
+  return {
+    connected: false,
+    contractResult: '',
+  }
+},
+
+methods: {
+    connect: function () {
+        // this connects to the wallet
+      
+      if (window.ethereum) { // first we check if metamask is installed
+        window.ethereum.request({ method: 'eth_requestAccounts' })
+          .then(() => {
+            this.connected = true; // If users successfully connected their wallet
+          });
+      }
+  }
+}
+
 }
 </script>
 
