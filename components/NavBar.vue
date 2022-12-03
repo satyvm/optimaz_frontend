@@ -3,9 +3,9 @@
         <div class="container px-4 mx-auto flex flex-wrap xl:justify-between justify-center">
           <div class="relative flex justify-between flex-cols w-auto px-4">
             <img class="w-20 p-4" src="../assets/images/optimz_n_logo.png" alt="logo" />
-            <a class="logo text-3xl font-bold inline-block mr-4 py-5 uppercase text-white" href="#home">          
+            <NuxtLink class="logo text-3xl font-bold inline-block mr-4 py-5 uppercase text-white" to="/">          
               <p>Optimaz.me</p>
-            </a>
+            </NuxtLink>
           </div>
           <div class="hidden xl:flex">
             <div class="flex flex-grow items-center">
@@ -28,7 +28,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://github.com/Nate-weeks/optimaz">
+                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://github.com/optimazme">
                     <i class="fab fa-pinterest text-lg text-white opacity-75" />
                     <span class="ml-2">
                       <svg
@@ -46,7 +46,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://optimaz.me/team">
+                  <NuxtLink to="/team" class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25">
                     <span class="ml-2">
                       <svg 
                         class="w-6 h-6 text-white hover:text-white/90" 
@@ -59,7 +59,7 @@
                         fill="currentColor"
                       ><path fill-rule="evenodd" d="M4.5 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5h-.75V3.75a.75.75 0 000-1.5h-15zM9 6a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H9zm-.75 3.75A.75.75 0 019 9h1.5a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM9 12a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H9zm3.75-5.25A.75.75 0 0113.5 6H15a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75zM13.5 9a.75.75 0 000 1.5H15A.75.75 0 0015 9h-1.5zm-.75 3.75a.75.75 0 01.75-.75H15a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75zM9 19.5v-2.25a.75.75 0 01.75-.75h4.5a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-4.5A.75.75 0 019 19.5z" clip-rule="evenodd" /></svg>
                     </span>
-                  </a>
+                  </NuxtLink>
                 </li>
               </ul>
             </div>

@@ -25,7 +25,7 @@
         </div>
         <div class="p-32 pl-10 h-100">
           <div class="card">
-            <p class="text-5xl text-white">Already know <br>Your way</p>
+            <p class="text-5xl text-white">Know already <br>Play your way</p>
             <div>
               <button v-if="!connected" @click="connect" class="bg-red-500 text-white w-full h-20 mt-10 rounded-md text-2xl">Connect wallet</button>
               <button v-if="connected" class="bg-red-500 text-white w-full h-20 mt-10 rounded-md text-2xl">Play Now</button>
@@ -118,6 +118,12 @@ methods: {
 
   .home {
     background-image: url(../assets/images/bg_astronaut.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home-star {
+    background-image: url(../assets/images/bg_star.png);
     background-position: center;
     background-size: cover;
   }
