@@ -1,19 +1,20 @@
 <template>
-    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
+    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 glass">
         <div class="container px-4 mx-auto flex flex-wrap xl:justify-between justify-center">
-          <div class="relative flex justify-between w-auto px-4">
-            <a class="logo text-3xl font-bold inline-block mr-4 py-5 uppercase text-white" href="#home">
-              Optimaz.me
+          <div class="relative flex justify-between flex-cols w-auto px-4">
+            <img class="w-20 p-4" src="../assets/images/optimz_n_logo.png" alt="logo" />
+            <a class="logo text-3xl font-bold inline-block mr-4 py-5 uppercase text-white" href="#home">          
+              <p>Optimaz.me</p>
             </a>
           </div>
           <div class="hidden xl:flex">
             <div class="flex flex-grow items-center">
               <ul class="flex flex-row list-none ml-auto">
                 <li class="nav-item">
-                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-75" href="https://twitter.com/optimazme">
+                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://twitter.com/optimazme">
                     <i class="fab fa-twitter text-lg text-white opacity-75" />
                     <span class="ml-2">
-                      <svg class="w-6 h-6 text-white hover:text-gray-800"
+                      <svg class="w-6 h-6 text-white hover:text-white/90"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         aria-hidden="true"
@@ -27,11 +28,11 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-75" href="https://github.com/Nate-weeks/optimaz">
+                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://github.com/Nate-weeks/optimaz">
                     <i class="fab fa-pinterest text-lg text-white opacity-75" />
                     <span class="ml-2">
                       <svg
-                        class="w-6 h-6 text-white hover:text-gray-800 button--github"
+                        class="w-6 h-6 text-white hover:text-white/90"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         aria-hidden="true"
@@ -45,10 +46,10 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-75" href="https://optimaz.me/team">
+                  <a class="px-1 py-2 flex items-center uppercase font-bold text-white hover:opacity-25" href="https://optimaz.me/team">
                     <span class="ml-2">
                       <svg 
-                        class="w-6 h-6 text-white hover:text-gray-800 button--team" 
+                        class="w-6 h-6 text-white hover:text-white/90" 
                         xmlns="http://www.w3.org/2000/svg" 
                         viewBox="0 0 24 24" 
                         aria-hidden="true"
