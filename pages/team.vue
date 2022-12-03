@@ -1,18 +1,18 @@
 <template>
-    <div class="home-star w-screen h-screen">
+    <div class="home-star">
         <NavBar />
-        <div class="hidden xl:flex justify-center items-center mt-10 font text-white">   
+        <div class="flex justify-center items-center mt-10 font text-white">   
             <div class="card w-2/3">
-                <div class="text-5xl flex-left m-5 ml-0">
+                <div class="text-5xl flex-left m-5 ml-0 game_fonts">
                     Our Team
                 </div>
                 <hr class="p-1.5" />
-                <div class="grid grid-cols-2 text-xl m-3 items-center">
+                <div class="grid grid-cols-1 xl:grid-cols-2 text-xl m-3 items-center">
                     <div class="flex flex-col items-center">
                         <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" 
-                        class="w-1/2 overflow-hidden m-2 "/>
+                        class="w-3/4 overflow-hidden m-2 "/>
                         <div class="flex flex-row items-center">
-                            <p class="text-2xl p-2">Amy</p>
+                            <p class="text-2xl p-2">XYZ</p>
                             <a href="">
                                 <svg
                                     class="w-6 h-6 text-white hover:text-white/50"
@@ -42,9 +42,9 @@
                     </div>
                     <div class="flex flex-col items-center bg-cover bg-center">
                         <img src="https://images.pexels.com/photos/1370750/pexels-photo-1370750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                        class="w-1/2 overflow-hidden m-2 "/>
+                        class="w-3/4 overflow-hidden m-2 "/>
                         <div class="flex flex-row items-center">
-                            <p class="text-2xl p-2">Amy</p>
+                            <p class="text-2xl p-2">XYZ</p>
                             <a href="">
                                 <svg
                                     class="w-6 h-6 text-white hover:text-white/50"
@@ -74,9 +74,9 @@
                     </div>
                     <div class="flex flex-col items-center bg-cover bg-center">
                         <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" 
-                        class="w-1/2 overflow-hidden m-2 "/>
+                        class="w-3/4 overflow-hidden m-2 "/>
                         <div class="flex flex-row items-center">
-                            <p class="text-2xl p-2">Amy</p>
+                            <p class="text-2xl p-2">XYZ</p>
                             <a href="">
                                 <svg
                                     class="w-6 h-6 text-white hover:text-white/50"
@@ -106,9 +106,9 @@
                     </div>
                     <div class="flex flex-col items-center bg-cover bg-center">
                         <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" 
-                        class="w-1/2 overflow-hidden m-2 "/>
+                        class="w-3/4 overflow-hidden m-2 "/>
                         <div class="flex flex-row items-center">
-                            <p class="text-2xl p-2">Amy</p>
+                            <p class="text-2xl p-2">XYZ</p>
                             <a href="">
                                 <svg
                                     class="w-6 h-6 text-white hover:text-white/50"
